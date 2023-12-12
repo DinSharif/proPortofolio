@@ -5,15 +5,13 @@
 }
 
 nav {
-  display: flex;
-  justify-content: space-around;
-  gap: 12rem;
-  margin: 60px 0 0 100px;
-  width: 1193px;
-  height: 59px;
-
-  /* border: 2px solid red; */
-  align-items: center;
+    display: flex;
+    gap: 12rem;
+    margin: 58px 0 0 170px;
+    width: 1193px;
+    height: 59px;
+    /* border: 2px solid red; */
+    align-items: center;
 }
 
 ul {
