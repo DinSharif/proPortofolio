@@ -1,55 +1,251 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 nav {
-    display: flex;
-    gap: 12rem;
-    margin: 58px 0 0 170px;
-    width: 1193px;
-    height: 59px;
-    /* border: 2px solid red; */
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  gap: 12rem;
+  margin: 60px 0 0 100px;
+  width: 1193px;
+  height: 59px;
+
+  /* border: 2px solid red; */
+  align-items: center;
 }
+
 ul {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  align-items: center;
 }
+
 li {
-    list-style: none;
+  list-style: none;
 }
+
 a {
-    text-decoration: none;
-    color: #666666;
-    
+  text-decoration: none;
+  color: #666;
 }
+
 .links {
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
 }
+
 .icons {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
+
 #home {
-    margin: 6rem 0 0 11rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 6rem 0 0 0;
 }
+
 .text {
-    font-size: 30px;
-    font-weight: 700;
-    color: rgba(66, 68, 110, 1);
-    display: flex;
-    gap: 13rem;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(66, 68, 110, 1);
 }
-.text h1 {
-    margin-top: 3rem;
+
+.text .name {
+  color: rgba(19, 176, 245, 1);
 }
+
 .profile {
-    width: 250px;
-    height: 250px;
+  width: 349px;
+  height: 349px;
+  border-radius: 70%;
+  border: 5px solid transparent;
+  background: linear-gradient(#e70faa, #00c0fd) padding-box, linear-gradient(to top, #00c0fd, #e70faa) border-box;
+}
+
+#tech {
+  margin: 8rem 0 0 0;
+}
+
+.word {
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 4rem;
+}
+
+.word h1 {
+  font-size: 49px;
+  color: rgba(66, 68, 110, 1);
+}
+
+.word p {
+  font-size: 32px;
+  color: rgba(102, 102, 102, 1);
+}
+
+.icon {
+  font-size: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon .first,
+.second {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4rem 0 0 0;
+}
+
+.text2 {
+  text-align: center;
+  margin: 9rem 0 0 0;
+  text-transform: capitalize;
+}
+
+.text2 h1 {
+  font-size: 48px;
+  color: rgba(66, 68, 110, 1);
+}
+
+.text2 p {
+  font-size: 32px;
+  color: rgba(102, 102, 102, 1);
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 4rem 0 0 0;
+}
+
+.box1 .first {
+  width: 375.5px;
+  height: 567px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4.5%;
+  line-height: 1.4rem;
+
+  /* margin: 0 0 0 10rem; */
+}
+
+.box1 .first h1,
+.first p,
+.first h5 {
+  margin: 2rem 0 0 0;
+  padding: 0 1.5rem;
+}
+
+.box1 .first h1 {
+  color: rgba(0, 0, 0, 1);
+  font-weight: bold;
+}
+
+.box1 .first p,
+.first h5 span {
+  color: rgba(102, 102, 102, 1);
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 4rem 0 0 0;
+}
+
+.box2 .first {
+  width: 375.5px;
+  height: 567px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4.5%;
+  line-height: 1.4rem;
+
+  /* margin: 0 0 0 10rem; */
+}
+
+.box2 .first h1,
+.box2 .first p,
+.box2 .first h5 {
+  margin: 2rem 0 0 0;
+  padding: 0 1.5rem;
+}
+
+.box2 .first h1 {
+  color: rgba(0, 0, 0, 1);
+  font-weight: bold;
+}
+
+.box2 .first p,
+.box2 .first h5 span {
+  color: rgba(102, 102, 102, 1);
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.foot .a,
+.b {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 1.5rem;
+}
+
+.foot a {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 1);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.first i:nth-child(1) {
+  color: #f1662a;
+}
+
+.first i:nth-child(2) {
+  color: #1572b6;
+}
+
+.first i:nth-child(3) {
+  color: #f5de19;
+}
+
+.first i:nth-child(4) {
+  color: #10daff;
+}
+
+.first i:nth-child(5) {
+  color: #764a76;
+}
+
+.first i:nth-child(6) {
+  color: #56107c;
+}
+
+.second i:nth-child(1) {
+  color: #44a8b3;
+}
+
+.second i:nth-child(2) {
+  color: #cd6799;
+}
+
+.second i:nth-child(3) {
+  color: #de4c36;
+}
+
+.second i:nth-child(4) {
+  color: #007acc;
 }
